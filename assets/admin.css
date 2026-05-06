@@ -1,0 +1,37 @@
+
+.wvr-report .wvr-actions {
+  margin: 1em 0 1.5em;
+}
+.wvr-report .wvr-actions .button {
+  margin-right: 8px;
+}
+.wvr-report .wvr-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+.wvr-report .wvr-heading h2 {
+  margin-block: 10px;
+}
+.wvr-report .wvr-md {
+  width: 100%;
+  min-height: 420px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 13px;
+  line-height: 1.45;
+  white-space: pre;
+  overflow-x: auto;
+  resize: vertical;
+  cursor: copy;
+}
+.wvr-report .wvr-copy-notice {
+  margin: 0;
+  color: #2271b1;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  pointer-events: none;
+}
+.wvr-report .wvr-copy-notice.is-visible {
+  opacity: 1;
+}

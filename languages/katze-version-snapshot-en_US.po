@@ -1,0 +1,141 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Katze Version Snapshot 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/katze-version-snapshot\n"
+"POT-Creation-Date: 2026-03-20 18:10+0900\n"
+"PO-Revision-Date: 2026-03-20 18:10+0900\n"
+"Last-Translator: Codex\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Codex\n"
+"X-Domain: katze-version-snapshot\n"
+
+msgid "Version Report"
+msgstr "Version Report"
+
+msgid "Katze Version Snapshot"
+msgstr "Katze Version Snapshot"
+
+msgid "設定"
+msgstr "Settings"
+
+msgid "Forbidden"
+msgstr "Forbidden"
+
+msgid "Failed to open CSV output."
+msgstr "Failed to open CSV output."
+
+msgid "単発アップデート時に必要な最小情報を Markdown で表示します。必要に応じて CSV （環境サマリ+プラグイン一覧）をダウンロードしてください。"
+msgstr "Displays the essential information needed for one-off updates in Markdown. Download the CSV when needed for the environment summary and plugin list."
+
+msgid "CSVをダウンロード"
+msgstr "Download CSV"
+
+msgid "Markdown（コピペ用）"
+msgstr "Markdown (Copy Ready)"
+
+msgid "コピーしました"
+msgstr "Copied"
+
+msgid "上記をそのままコピーして、チケットやドキュメントに貼り付けてください。"
+msgstr "Copy the text above and paste it into your ticket or document."
+
+msgid "Inactive"
+msgstr "Inactive"
+
+msgid "Network Active"
+msgstr "Network Active"
+
+msgid "Active"
+msgstr "Active"
+
+msgid "サイト環境（最小）"
+msgstr "Site Environment (Minimal)"
+
+msgid "コア・ランタイム"
+msgstr "Core and Runtime"
+
+msgid "項目"
+msgstr "Item"
+
+msgid "値"
+msgstr "Value"
+
+msgid "WordPress"
+msgstr "WordPress"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "Database Engine"
+msgstr "Database Engine"
+
+msgid "Database Version"
+msgstr "Database Version"
+
+msgid "テーマ"
+msgstr "Theme"
+
+msgid "有効テーマ"
+msgstr "Active Theme"
+
+msgid "バージョン"
+msgstr "Version"
+
+msgid "子テーマ？"
+msgstr "Child Theme?"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "No"
+msgstr "No"
+
+msgid "親テーマ"
+msgstr "Parent Theme"
+
+msgid "親テーマバージョン"
+msgstr "Parent Version"
+
+msgid "プラグイン一覧"
+msgstr "Plugins"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Item"
+msgstr "Item"
+
+msgid "Value"
+msgstr "Value"
+
+msgid "Theme"
+msgstr "Theme"
+
+msgid "Active Theme"
+msgstr "Active Theme"
+
+msgid "Child Theme?"
+msgstr "Child Theme?"
+
+msgid "Parent Theme"
+msgstr "Parent Theme"
+
+msgid "Parent Version"
+msgstr "Parent Version"
+
+msgid "Plugins"
+msgstr "Plugins"
+
+msgid "Slug"
+msgstr "Slug"
