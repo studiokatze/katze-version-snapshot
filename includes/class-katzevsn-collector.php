@@ -3,7 +3,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-class WVR_Collector {
+class KATZEVSN_Collector {
     private static ?array $summary_cache = null;
     private static ?array $plugins_cache = null;
 

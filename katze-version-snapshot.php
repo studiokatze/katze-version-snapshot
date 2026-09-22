@@ -17,23 +17,23 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('WVR_FILE', __FILE__);
-define('WVR_DIR', plugin_dir_path(WVR_FILE));
-define('WVR_URL', plugin_dir_url(WVR_FILE));
-define('WVR_VERSION', '1.0.0');
+define('KATZEVSN_FILE', __FILE__);
+define('KATZEVSN_DIR', plugin_dir_path(KATZEVSN_FILE));
+define('KATZEVSN_URL', plugin_dir_url(KATZEVSN_FILE));
+define('KATZEVSN_VERSION', '1.0.0');
 
-require_once WVR_DIR . 'includes/class-wvr-collector.php';
-require_once WVR_DIR . 'includes/class-wvr-exporter.php';
-require_once WVR_DIR . 'includes/class-wvr-admin.php';
+require_once KATZEVSN_DIR . 'includes/class-katzevsn-collector.php';
+require_once KATZEVSN_DIR . 'includes/class-katzevsn-exporter.php';
+require_once KATZEVSN_DIR . 'includes/class-katzevsn-admin.php';
 
-final class WVR_Report {
+final class KATZEVSN_Report {
     public static function init(): void {
         add_action('admin_menu', [__CLASS__, 'register_menu']);
         add_action('admin_enqueue_scripts', [__CLASS__, 'enqueue']);
-        add_filter('plugin_action_links_' . plugin_basename(WVR_FILE), [__CLASS__, 'add_plugin_action_links']);
+        add_filter('plugin_action_links_' . plugin_basename(KATZEVSN_FILE), [__CLASS__, 'add_plugin_action_links']);
 
         // CSV export endpoints
-        add_action('admin_post_kvs_export_version_snapshot', ['WVR_Exporter', 'export_version_report_csv']);
+        add_action('admin_post_katzevsn_export_version_snapshot', ['KATZEVSN_Exporter', 'export_version_report_csv']);
     }
 
     public static function register_menu(): void {
@@ -42,7 +42,7 @@ final class WVR_Report {
             __('Katze Version Snapshot', 'katze-version-snapshot'),
             'manage_options',
             'katze-version-snapshot',
-            ['WVR_Admin', 'render_page']
+            ['KATZEVSN_Admin', 'render_page']
         );
     }
 
@@ -62,9 +62,9 @@ final class WVR_Report {
         if ($hook !== 'tools_page_katze-version-snapshot') {
             return;
         }
-        wp_enqueue_style('wvr-admin', WVR_URL . 'assets/admin.css', [], WVR_VERSION);
-        wp_enqueue_script('wvr-admin', WVR_URL . 'assets/admin.js', [], WVR_VERSION, true);
+        wp_enqueue_style('katzevsn-admin', KATZEVSN_URL . 'assets/admin.css', [], KATZEVSN_VERSION);
+        wp_enqueue_script('katzevsn-admin', KATZEVSN_URL . 'assets/admin.js', [], KATZEVSN_VERSION, true);
     }
 }
 
-WVR_Report::init();
+KATZEVSN_Report::init();

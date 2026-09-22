@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var markdownField = document.getElementById('wvr-markdown');
-    var copyNotice = document.querySelector('.js-wvr-copy-notice');
+    var markdownField = document.getElementById('katzevsn-markdown');
+    var copyNotice = document.querySelector('.js-katzevsn-copy-notice');
 
     if (!markdownField || !copyNotice) {
         return;

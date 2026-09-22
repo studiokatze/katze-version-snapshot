@@ -3,16 +3,16 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-class WVR_Exporter {
+class KATZEVSN_Exporter {
 
     public static function export_version_report_csv(): void {
         if (!current_user_can('manage_options')) {
             wp_die(esc_html__('Forbidden', 'katze-version-snapshot'));
         }
-        check_admin_referer('kvs_export_version_snapshot');
+        check_admin_referer('katzevsn_export_version_snapshot');
 
-        $summary = WVR_Collector::get_summary();
-        $plugins = WVR_Collector::get_plugins();
+        $summary = KATZEVSN_Collector::get_summary();
+        $plugins = KATZEVSN_Collector::get_plugins();
 
         $domain = (string) wp_parse_url(home_url('/'), PHP_URL_HOST);
         $filename = sanitize_file_name($domain . '-katze-version-snapshot-' . wp_date('Ymd-His') . '.csv');
@@ -65,13 +65,13 @@ class WVR_Exporter {
         fwrite($out, "\xEF\xBB\xBF");
 
         self::put_csv_row($out, [__('Item', 'katze-version-snapshot'), __('Value', 'katze-version-snapshot')]);
-        foreach (WVR_Collector::get_environment_rows($summary) as $row) {
+        foreach (KATZEVSN_Collector::get_environment_rows($summary) as $row) {
             self::put_csv_row($out, [$row['export_label'], self::sanitize_csv_cell($row['value'])]);
         }
 
         self::put_csv_row($out, []);
         self::put_csv_row($out, [__('Theme', 'katze-version-snapshot'), '']);
-        foreach (WVR_Collector::get_theme_rows($summary) as $row) {
+        foreach (KATZEVSN_Collector::get_theme_rows($summary) as $row) {
             self::put_csv_row($out, [$row['export_label'], self::sanitize_csv_cell($row['value'])]);
         }
 

@@ -16,7 +16,7 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: katze-version-snapshot.php
-#: includes/class-wvr-admin.php:21
+#: includes/class-katzevsn-admin.php:21
 #: katze-version-snapshot.php:42
 msgid "Katze Version Snapshot"
 msgstr ""
@@ -36,171 +36,171 @@ msgstr ""
 msgid "https://studio-katze.jp"
 msgstr ""
 
-#: includes/class-wvr-admin.php:10
-#: includes/class-wvr-exporter.php:10
+#: includes/class-katzevsn-admin.php:10
+#: includes/class-katzevsn-exporter.php:10
 msgid "Forbidden"
 msgstr ""
 
-#: includes/class-wvr-admin.php:22
+#: includes/class-katzevsn-admin.php:22
 msgid "単発アップデート時に必要な最小情報を Markdown で表示します。必要に応じて CSV （環境サマリ+プラグイン一覧）をダウンロードしてください。"
 msgstr ""
 
-#: includes/class-wvr-admin.php:25
+#: includes/class-katzevsn-admin.php:25
 msgid "CSVをダウンロード"
 msgstr ""
 
-#: includes/class-wvr-admin.php:29
-#: includes/class-wvr-admin.php:32
+#: includes/class-katzevsn-admin.php:29
+#: includes/class-katzevsn-admin.php:32
 msgid "Markdown（コピペ用）"
 msgstr ""
 
-#: includes/class-wvr-admin.php:30
+#: includes/class-katzevsn-admin.php:30
 msgid "コピーしました"
 msgstr ""
 
-#: includes/class-wvr-admin.php:34
+#: includes/class-katzevsn-admin.php:34
 msgid "上記をそのままコピーして、チケットやドキュメントに貼り付けてください。"
 msgstr ""
 
-#: includes/class-wvr-collector.php:66
+#: includes/class-katzevsn-collector.php:66
 msgid "Inactive"
 msgstr ""
 
-#: includes/class-wvr-collector.php:68
+#: includes/class-katzevsn-collector.php:68
 msgid "Network Active"
 msgstr ""
 
-#: includes/class-wvr-collector.php:70
+#: includes/class-katzevsn-collector.php:70
 msgid "Active"
 msgstr ""
 
-#: includes/class-wvr-collector.php:89
+#: includes/class-katzevsn-collector.php:89
 msgid "サイト環境（最小）"
 msgstr ""
 
-#: includes/class-wvr-collector.php:91
+#: includes/class-katzevsn-collector.php:91
 msgid "コア・ランタイム"
 msgstr ""
 
-#: includes/class-wvr-collector.php:92
-#: includes/class-wvr-collector.php:98
+#: includes/class-katzevsn-collector.php:92
+#: includes/class-katzevsn-collector.php:98
 msgid "項目"
 msgstr ""
 
-#: includes/class-wvr-collector.php:92
-#: includes/class-wvr-collector.php:98
+#: includes/class-katzevsn-collector.php:92
+#: includes/class-katzevsn-collector.php:98
 msgid "値"
 msgstr ""
 
-#: includes/class-wvr-collector.php:97
+#: includes/class-katzevsn-collector.php:97
 msgid "テーマ"
 msgstr ""
 
-#: includes/class-wvr-collector.php:103
+#: includes/class-katzevsn-collector.php:103
 msgid "プラグイン一覧"
 msgstr ""
 
-#: includes/class-wvr-collector.php:104
-#: includes/class-wvr-exporter.php:80
+#: includes/class-katzevsn-collector.php:104
+#: includes/class-katzevsn-exporter.php:80
 msgid "Name"
 msgstr ""
 
-#: includes/class-wvr-collector.php:104
-#: includes/class-wvr-collector.php:152
-#: includes/class-wvr-exporter.php:80
+#: includes/class-katzevsn-collector.php:104
+#: includes/class-katzevsn-collector.php:152
+#: includes/class-katzevsn-exporter.php:80
 msgid "Version"
 msgstr ""
 
-#: includes/class-wvr-collector.php:104
-#: includes/class-wvr-exporter.php:80
+#: includes/class-katzevsn-collector.php:104
+#: includes/class-katzevsn-exporter.php:80
 msgid "Status"
 msgstr ""
 
-#: includes/class-wvr-collector.php:118
-#: includes/class-wvr-collector.php:119
+#: includes/class-katzevsn-collector.php:118
+#: includes/class-katzevsn-collector.php:119
 msgid "WordPress"
 msgstr ""
 
-#: includes/class-wvr-collector.php:123
-#: includes/class-wvr-collector.php:124
+#: includes/class-katzevsn-collector.php:123
+#: includes/class-katzevsn-collector.php:124
 msgid "PHP"
 msgstr ""
 
-#: includes/class-wvr-collector.php:128
-#: includes/class-wvr-collector.php:129
+#: includes/class-katzevsn-collector.php:128
+#: includes/class-katzevsn-collector.php:129
 msgid "Database Engine"
 msgstr ""
 
-#: includes/class-wvr-collector.php:133
-#: includes/class-wvr-collector.php:134
+#: includes/class-katzevsn-collector.php:133
+#: includes/class-katzevsn-collector.php:134
 msgid "Database Version"
 msgstr ""
 
-#: includes/class-wvr-collector.php:146
+#: includes/class-katzevsn-collector.php:146
 msgid "有効テーマ"
 msgstr ""
 
-#: includes/class-wvr-collector.php:147
+#: includes/class-katzevsn-collector.php:147
 msgid "Active Theme"
 msgstr ""
 
-#: includes/class-wvr-collector.php:151
+#: includes/class-katzevsn-collector.php:151
 msgid "バージョン"
 msgstr ""
 
-#: includes/class-wvr-collector.php:156
+#: includes/class-katzevsn-collector.php:156
 msgid "子テーマ？"
 msgstr ""
 
-#: includes/class-wvr-collector.php:157
+#: includes/class-katzevsn-collector.php:157
 msgid "Child Theme?"
 msgstr ""
 
-#: includes/class-wvr-collector.php:158
+#: includes/class-katzevsn-collector.php:158
 msgid "Yes"
 msgstr ""
 
-#: includes/class-wvr-collector.php:158
+#: includes/class-katzevsn-collector.php:158
 msgid "No"
 msgstr ""
 
-#: includes/class-wvr-collector.php:164
+#: includes/class-katzevsn-collector.php:164
 msgid "親テーマ"
 msgstr ""
 
-#: includes/class-wvr-collector.php:165
+#: includes/class-katzevsn-collector.php:165
 msgid "Parent Theme"
 msgstr ""
 
-#: includes/class-wvr-collector.php:169
+#: includes/class-katzevsn-collector.php:169
 msgid "親テーマバージョン"
 msgstr ""
 
-#: includes/class-wvr-collector.php:170
+#: includes/class-katzevsn-collector.php:170
 msgid "Parent Version"
 msgstr ""
 
-#: includes/class-wvr-exporter.php:24
+#: includes/class-katzevsn-exporter.php:24
 msgid "Failed to open CSV output."
 msgstr ""
 
-#: includes/class-wvr-exporter.php:67
+#: includes/class-katzevsn-exporter.php:67
 msgid "Item"
 msgstr ""
 
-#: includes/class-wvr-exporter.php:67
+#: includes/class-katzevsn-exporter.php:67
 msgid "Value"
 msgstr ""
 
-#: includes/class-wvr-exporter.php:73
+#: includes/class-katzevsn-exporter.php:73
 msgid "Theme"
 msgstr ""
 
-#: includes/class-wvr-exporter.php:79
+#: includes/class-katzevsn-exporter.php:79
 msgid "Plugins"
 msgstr ""
 
-#: includes/class-wvr-exporter.php:80
+#: includes/class-katzevsn-exporter.php:80
 msgid "Slug"
 msgstr ""
 
